@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Blog - JSK-Studio | Web Design & Graphic Design Insights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navbar (copied from index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.png" alt="Jsk Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                <ul class="navbar-nav mx-auto gap-lg-4 gap-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Illustration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Content</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Marketing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-flex align-items-center flex-wrap ms-3">
+                <span class="fw-bold me-2">For Business Query:</span>
+                <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India" width="20" class="me-1">
+                <span class="text-warning fw-bold me-3">+91 96504 08093</span>
+                <a href="contactus.html" class="btn btn-warning fw-bold px-4 mb-2 mb-md-0">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-lg-none py-2">
+        <div class="d-flex align-items-center flex-wrap justify-content-center">
+            <span class="fw-bold me-2">For Business Query:</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India" width="20" class="me-1">
+            <span class="text-warning fw-bold me-3">+91 96504 08093</span>
+            <a href="contactus.html" class="btn btn-warning fw-bold px-4 mb-2 mb-md-0">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Blog Banner Section -->
+    <section class="blog-banner py-5" style="background: linear-gradient(135deg, #232b30 0%, #2d3a4a 100%);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="fw-bold text-white mb-3">Design Insights & Tips</h1>
+                    <p class="lead text-white mb-4">Stay updated with the latest trends in web design and graphic design. Learn from industry experts and discover best practices.</p>
+                    <div class="d-flex align-items-center text-warning">
+                        <i class="bi bi-lightbulb-fill fs-4 me-2"></i>
+                        <span class="fw-bold">Expert Design Knowledge</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://img.freepik.com/free-vector/blog-concept-illustration_114360-1358.jpg?w=500" alt="Design Blog" class="img-fluid" style="max-height:300px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center fw-bold mb-5">Latest Web Design & Graphic Design Insights</h1>
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a6a406?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Blog Post Image 1" style="height:200px;object-fit:cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">The Future of Web Design in 2024</h5>
+                            <p class="card-text text-muted small mb-2">December 15, 2024</p>
+                            <p class="card-text">Discover the latest web design trends, from AI-powered interfaces to advanced animations that will dominate 2024.</p>
+                            <a href="#" class="btn btn-warning btn-sm fw-bold">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Blog Post Image 2" style="height:200px;object-fit:cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Essential Graphic Design Principles</h5>
+                            <p class="card-text text-muted small mb-2">December 10, 2024</p>
+                            <p class="card-text">Master the fundamental principles of graphic design that every designer should know for creating compelling visuals.</p>
+                            <a href="#" class="btn btn-warning btn-sm fw-bold">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1621609764095-fd93d65b7e93?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Blog Post Image 3" style="height:200px;object-fit:cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Responsive Design Best Practices</h5>
+                            <p class="card-text text-muted small mb-2">December 5, 2024</p>
+                            <p class="card-text">Learn the essential techniques for creating websites that look perfect on all devices and screen sizes.</p>
+                            <a href="#" class="btn btn-warning btn-sm fw-bold">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1549929267-be3d4891176b?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Blog Post Image 4" style="height:200px;object-fit:cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Logo Design Trends for Modern Brands</h5>
+                            <p class="card-text text-muted small mb-2">November 30, 2024</p>
+                            <p class="card-text">Explore the latest logo design trends and how they're shaping brand identities in the digital age.</p>
+                            <a href="#" class="btn btn-warning btn-sm fw-bold">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b2baf?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Blog Post Image 5" style="height:200px;object-fit:cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">UI/UX Design Fundamentals</h5>
+                            <p class="card-text text-muted small mb-2">November 25, 2024</p>
+                            <p class="card-text">Master the core principles of UI/UX design to create user-friendly and engaging digital experiences.</p>
+                            <a href="#" class="btn btn-warning btn-sm fw-bold">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Blog Post Image 6" style="height:200px;object-fit:cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Color Psychology in Design</h5>
+                            <p class="card-text text-muted small mb-2">November 20, 2024</p>
+                            <p class="card-text">Understand how color choices impact user emotions and behavior in web and graphic design.</p>
+                            <a href="#" class="btn btn-warning btn-sm fw-bold">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-dark fw-bold px-4 py-2 rounded-pill">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/+917622020466" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:60px;height:60px;">
+    </a>
+
+    <!-- Footer (copied from index.html) -->
+    <footer class="main-footer bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Logo & About -->
+                <div class="col-md-3">
+                    <img src="images/logo.png" alt="JSK-Studio" style="max-width:150px;">
+                    <div class="mt-3">
+                        <img src="images/contentwitty-logo.png" alt="ContentWitty" style="max-width:120px;">
+                        <div class="small text-white-50">A Subsidiary Company</div>
+                    </div>
+                </div>
+                <!-- Company -->
+                <div class="col-6 col-md-2">
+                    <h6 class="fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#" class="text-white-50">About Us</a></li>
+                        <li><a href="#" class="text-white-50">Career</a></li>
+                        <li><a href="#" class="text-white-50">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-white-50">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white-50">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Services -->
+                <div class="col-6 col-md-2">
+                    <h6 class="fw-bold mb-3">SERVICES</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#" class="text-white-50">Graphic Design</a></li>
+                        <li><a href="#" class="text-white-50">Digital Illustration</a></li>
+                        <li><a href="#" class="text-white-50">Web Development</a></li>
+                        <li><a href="#" class="text-white-50">Explainer Videos</a></li>
+                        <li><a href="#" class="text-white-50">Content Writing</a></li>
+                        <li><a href="#" class="text-white-50">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <!-- Other Links -->
+                <div class="col-12 col-md-5">
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <h6 class="fw-bold mb-3"> </h6>
+                            <ul class="list-unstyled footer-links">
+                                <li><a href="#" class="text-white-50 fw-bold">PRICING</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">DESIGN SAMPLES</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">OUR CREATIVE PROCESS</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">BLOG</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">REQUEST QUOTATION</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <h6 class="fw-bold mb-3">Contact for Sales & Support</h6>
+                            <div class="mb-2 text-white-50">+91 7622020466</div>
+                            <div class="mb-2 text-white-50">sumitsharma768626@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-white-50">
+                <div>©2024 - 2025 JSK-Studio Pvt. Ltd. All Rights Reserved</div>
+                <div class="mt-2 mt-md-0">
+                    <!-- Social icons or other info here if needed -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
