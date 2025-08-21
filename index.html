@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSK Tech Solution - Professional Web Design & Graphic Design Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+ 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://jsktechsolutions.github.io/logo.png" alt="JSK-Studio Logo">
+            </a>
+            <!-- Navbar links -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                <ul class="navbar-nav mx-auto gap-lg-4 gap-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#">Design Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Web Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div class="d-none d-lg-flex align-items-center flex-wrap ms-3">
+                <span class="fw-bold me-2">For Business Query:</span>
+                <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India" width="20" class="me-1">
+                <span class="text-warning fw-bold me-3">+91 7622020466</span>
+                <button class="btn btn-warning fw-bold px-4 mb-2 mb-md-0">Get Free Quote</button>
+            </div>
+        </div>
+    </nav>
+    <!-- For mobile, show contact info below navbar -->
+    <div class="container d-lg-none py-2">
+        <div class="d-flex align-items-center flex-wrap justify-content-center">
+            <span class="fw-bold me-2">For Business Query:</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India" width="20" class="me-1">
+            <span class="text-warning fw-bold me-3">+91 7622020466</span>
+            <button class="btn btn-warning fw-bold px-4 mb-2 mb-md-0">Get Free Quote</button>
+        </div>
+    </div>
+
+    <!-- Banner / Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h2 class="customer-centric mb-0">Creative Excellence</h2>
+                    <h1 class="display-3 fw-bold mb-4">Professional Web Design<br>& Graphic Design Agency</h1>
+                    <p class="lead mb-4">
+                        Transform your brand with stunning web designs and captivating graphics. We create digital experiences that drive results and leave lasting impressions.
+                    </p>
+                    <form class="d-flex flex-column flex-sm-row mb-3 mx-auto mx-lg-0" style="max-width: 500px;" action="https://formspree.io/f/xpzgwqzg" method="POST">
+                        <input class="form-control me-sm-2 mb-2 mb-sm-0" type="text" name="service" placeholder="What design service do you need?" aria-label="Service" required>
+                        <button class="btn btn-warning fw-bold" type="submit">Get Free Quote</button>
+                    </form>
+                </div>
+                <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                    <div class="position-relative d-inline-block">
+                        <img src="https://img.freepik.com/free-vector/web-development-banner_33099-1687.jpg" class="img-fluid rounded shadow hero-img" alt="Web Design & Development Banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Design Services Section -->
+    <section class="content-writing-section py-5 bg-gradient-web">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-2" style="font-size:2.5rem; letter-spacing:1px; text-shadow:0 2px 8px #ffd60033;">
+                Professional <span class="text-warning fw-bold me-3">Web Design</span> <span class="text-danger">Services</span>
+            </h2>
+            <p class="text-center mb-5" style="max-width:700px;margin:auto;">
+                We create stunning, responsive websites that not only look amazing but also drive conversions and grow your business. Our web design services are tailored to meet your specific needs.
+            </p>
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-laptop fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Custom Website Design</h5>
+                        <p class="mb-3">Unique, professional websites designed specifically for your brand. We create custom layouts, color schemes, and user experiences that reflect your business identity.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-phone fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Responsive Web Design</h5>
+                        <p class="mb-3">Mobile-first approach ensuring your website looks perfect on all devices - desktop, tablet, and mobile. We optimize for the best user experience across all platforms.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-cart fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">E-commerce Website Design</h5>
+                        <p class="mb-3">Complete e-commerce solutions with secure payment gateways, inventory management, and user-friendly shopping experiences that drive sales and conversions.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-wordpress fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">WordPress Development</h5>
+                        <p class="mb-3">Custom WordPress themes and plugins development. We create powerful, scalable websites using the world's most popular CMS platform.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-search fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">SEO-Optimized Design</h5>
+                        <p class="mb-3">Websites built with SEO best practices from the ground up. We ensure your site ranks well in search engines and attracts organic traffic.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-tools fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Website Maintenance</h5>
+                        <p class="mb-3">Ongoing website maintenance, updates, and support to keep your site secure, fast, and up-to-date with the latest technologies and trends.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Graphic Design Services Section -->
+    <section class="content-writing-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-2" style="font-size:2.5rem; letter-spacing:1px; text-shadow:0 2px 8px #ffd60033;">
+                Creative <span class="text-warning">Graphic Design</span> <span class="text-danger">Services</span>
+            </h2>
+            <p class="text-center mb-5" style="max-width:700px;margin:auto;">
+                From logos to marketing materials, we create visually stunning graphics that strengthen your brand identity and connect with your audience.
+            </p>
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-palette fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Logo Design</h5>
+                        <p class="mb-3">Professional logo design that captures your brand essence. We create memorable, scalable logos that work across all platforms and leave lasting impressions.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-facebook fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Social Media Graphics</h5>
+                        <p class="mb-3">Eye-catching social media posts, covers, and marketing materials designed to increase engagement and brand awareness across all platforms.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-file-earmark-image fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Print Design</h5>
+                        <p class="mb-3">Professional print materials including business cards, brochures, flyers, banners, and marketing collateral that maintain quality across all print formats.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-brush fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Brand Identity Design</h5>
+                        <p class="mb-3">Complete brand identity packages including logo, color palette, typography, and brand guidelines to ensure consistent visual communication.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-phone fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">UI/UX Design</h5>
+                        <p class="mb-3">User interface and user experience design for web and mobile applications. We create intuitive, user-friendly designs that enhance user engagement.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-card modern-service-card p-4 h-100 text-center border rounded-4 shadow-lg position-relative overflow-hidden">
+                        <div class="service-icon mb-3 mx-auto rounded-circle d-flex align-items-center justify-content-center modern-service-icon">
+                            <i class="bi bi-camera-video fs-1 text-warning"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Video & Animation</h5>
+                        <p class="mb-3">Motion graphics, animated logos, explainer videos, and promotional content that brings your brand to life and engages your audience.</p>
+                        <a href="#" class="btn btn-warning fw-bold rounded-pill px-4 py-2 mt-2 shadow-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diverse Industries Section (Professional Modern) -->
+    <section class="industries-section py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-2" style="font-size:2.2rem; letter-spacing:1px;">
+          Diverse Industries, <span class="text-warning">One Content</span> <span class="text-danger">Writing Agency</span>
+        </h2>
+        <div class="mx-auto mb-4" style="width:80px; height:4px; background:linear-gradient(90deg,#ffd600 60%,#fffbe6 100%); border-radius:2px;"></div>
+        <p class="text-center mb-5" style="max-width:700px;margin:auto;">
+          We cater to almost every industry in India; our team consists of experienced industry experts, writers, and strategists with expertise in specific niches and subject matters.
+        </p>
+        <div class="row g-4 justify-content-center">
+          <!-- Example Industry Card (repeat for all industries) -->
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-cpu fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Technology</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-graph-up fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Sales</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-laptop fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">IT & Software</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-heart-pulse fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Healthcare</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-truck fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Transport & Logistics</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-mortarboard fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Education</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-cash-coin fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Finance</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-building fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Real Estate</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-gear-wide-connected fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Engineering</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-bag fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Retail</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-cup-straw fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Food</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="industry-card modern-industry-card p-3 text-center border-0 rounded-4 shadow-sm h-100 position-relative overflow-hidden">
+              <div class="industry-icon mb-2 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-journal-richtext fs-2 text-warning"></i>
+              </div>
+              <div class="fw-bold mb-1">Content Marketing</div>
+              <div class="industry-divider mx-auto my-2"></div>
+            </div>
+          </div>
+          <!-- Add more industries as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Graphic Design Company Section -->
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <!-- Left Side -->
+            <div class="col-lg-5 mb-4 mb-lg-0">
+                <h2 class="fw-bold display-6 mb-3">Top Graphic Design<br>Company in India</h2>
+                <p>
+                   JSK Tech Solutions is the leading graphic design company in India. Our creative team specializes in digital marketing solutions & graphic design that can help your business thrive. We provide the following services:
+                </p>
+                <img src="https://i.ibb.co/6b2wQwF/best-email-design-agency.png" alt="Best Email Design Agency" class="img-fluid mt-4" style="max-width:350px;">
+            </div>
+            <!-- Right Side -->
+            <div class="col-lg-7">
+                <div class="service-list">
+                    <div class="d-flex mb-4 align-items-start">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" alt="Graphic Design" class="service-icon me-3 mt-1">
+                        <div>
+                            <h5 class="fw-bold mb-1">Graphic Design Services</h5>
+                            <p class="mb-1">JSK Tech Solutions is one of the top graphic design companies in India. We offer a variety of graphic design services to help bring your ideas to life. From logo design to website layouts, we can create professional designs that will make your business stand out.</p>
+                            <a href="#" class="fw-bold text-dark check-portfolio-link">Check Our Portfolio <i class="bi bi-box-arrow-up-right text-warning"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4 align-items-start">
+                        <img src="https://cdn-icons-png.flaticon.com/128/747/747376.png" alt="Illustration" class="service-icon me-3 mt-1">
+                        <div>
+                            <h5 class="fw-bold mb-1">Digital Illustration Services</h5>
+                            <p class="mb-1">Our digital Illustration Services cover a wide range, including blog, web, advertorial, book, caricatures, comics, city, portrait, cover, magazine, and newspaper illustrations. We create impactful visuals for your ideas.</p>
+                            <a href="#" class="fw-bold text-dark check-portfolio-link">Check Our Portfolio <i class="bi bi-box-arrow-up-right text-warning"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4 align-items-start">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1828/1828919.png" alt="Web Design" class="service-icon me-3 mt-1">
+                        <div>
+                            <h5 class="fw-bold mb-1">Web Design and Development</h5>
+                            <p class="mb-1">We provide end-to-end Web Design and Development services. We specialize in e-commerce, Webflow, WordPress, and custom website solutions. Additionally, we offer reliable website maintenance services to keep your online presence running smoothly.</p>
+                            <a href="#" class="fw-bold text-dark check-portfolio-link">Check Our Portfolio <i class="bi bi-box-arrow-up-right text-warning"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4 align-items-start">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2921/2921222.png" alt="Video" class="service-icon me-3 mt-1">
+                        <div>
+                            <h5 class="fw-bold mb-1">Explainer Video Services</h5>
+                            <p class="mb-1">JSK Tech Solutions provides a variety of explainer video services, including SaaS explainer videos, B-roll, whiteboard animation, 2D animated videos, corporate videos, and screencast videos. We create engaging videos that effectively convey your message and captivate your audience.</p>
+                            <a href="#" class="fw-bold text-dark check-portfolio-link">Check Our Portfolio <i class="bi bi-box-arrow-up-right text-warning"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4 align-items-start">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png" alt="Marketing" class="service-icon me-3 mt-1">
+                        <div>
+                            <h5 class="fw-bold mb-1">Digital Marketing Services</h5>
+                            <p class="mb-1">JSK Tech Solutions delivers comprehensive digital marketing solutions encompassing social media marketing, SEO, lead generation, influencer marketing, video marketing, content marketing, PPC, ad campaigns, press releases, email marketing, lead generation, CRM, and more.</p>
+                            <a href="#" class="fw-bold text-dark check-portfolio-link">Check Our Portfolio <i class="bi bi-box-arrow-up-right text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="container my-5">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Logo Design</h3>
+                <p>Crafting professional logos that define your brand identity.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Social Media Graphics</h3>
+                <p>Eye-catching designs for all social media platforms.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Banner & Print Design</h3>
+                <p>Professional banner designs for marketing campaigns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Clients -->
+    <section class="bg-light py-5 text-center">
+        <h2>Our Clients</h2>
+        <p>Trusted by brands across various industries.</p>
+        <img src="assets/images/clients.png" alt="Our Clients">
+    </section>
+
+    <!-- Global Brands Section -->
+    <section class="brands-section py-5 text-center bg-white">
+        <h2 class="fw-bold mb-2">Global Brands that trust us</h2>
+        <p class="mb-5">Click on the logos to see the relevant work examples that we have done for these amazing brands.</p>
+        <div class="container">
+            <div class="brands-logos-marquee-outer">
+                <div class="brands-logos-marquee">
+                    <!-- 1st set of logos -->
+                    <img src="assets/brands/unicef.png" alt="Unicef" class="brand-logo img-fluid" />
+                    <img src="assets/brands/who.png" alt="WHO" class="brand-logo img-fluid" />
+                    <img src="assets/brands/intel.png" alt="Intel" class="brand-logo img-fluid" />
+                    <img src="assets/brands/canon.png" alt="Canon" class="brand-logo img-fluid" />
+                    <img src="assets/brands/etihad.png" alt="Etihad" class="brand-logo img-fluid" />
+                    <!-- 2nd set of logos (repeat for seamless loop) -->
+                    <img src="assets/brands/unicef.png" alt="Unicef" class="brand-logo img-fluid" />
+                    <img src="assets/brands/who.png" alt="WHO" class="brand-logo img-fluid" />
+                    <img src="assets/brands/intel.png" alt="Intel" class="brand-logo img-fluid" />
+                    <img src="assets/brands/canon.png" alt="Canon" class="brand-logo img-fluid" />
+                    <img src="assets/brands/etihad.png" alt="Etihad" class="brand-logo img-fluid" />
+                </div>
+            </div>
+            <button class="see-full-list mt-5 btn btn-warning fw-bold px-4 py-2 rounded-pill">
+                See full list <span>&rarr;</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Testimonial Horizontal Scroller Section -->
+    <section class="testimonial-scroller-section py-5" style="background: #4293c6;">
+        <div class="container">
+            <h2 class="text-center fw-bold text-white mb-5" style="font-size:2.5rem;">
+                Our True Earning Is Customer Trust
+            </h2>
+            <div class="testimonial-scroller-wrapper">
+                <div class="testimonial-scroller">
+                    <div class="testimonial-card">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle border border-3 border-warning" style="width:100px;height:100px;object-fit:cover;">
+                            <div class="fw-bold text-white mt-3">Brandon Leong</div>
+                            <div class="text-white-50 small">VP of Marketing & Growth,<br>Screencastify</div>
+                        </div>
+                        <div class="testimonial-content ms-md-5 text-white text-start">
+                            <h5 class="fw-bold mb-2">Exceptional work!</h5>
+                            <p class="mb-0" style="max-width:420px;">
+                                "JSK Tech Solution is an amazing design partner and their team is a gift for illustrating even the most complicated content and data. Grade: A+"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle border border-3 border-warning" style="width:100px;height:100px;object-fit:cover;">
+                            <div class="fw-bold text-white mt-3">Jane Doe</div>
+                            <div class="text-white-50 small">Marketing Head,<br>Acme Corp</div>
+                        </div>
+                        <div class="testimonial-content ms-md-5 text-white text-start">
+                            <h5 class="fw-bold mb-2">Amazing Experience!</h5>
+                            <p class="mb-0" style="max-width:420px;">
+                                "The team at JSK Tech Solutions exceeded our expectations. Highly recommended!"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle border border-3 border-warning" style="width:100px;height:100px;object-fit:cover;">
+                            <div class="fw-bold text-white mt-3">John Smith</div>
+                            <div class="text-white-50 small">CEO, Example Inc</div>
+                        </div>
+                        <div class="testimonial-content ms-md-5 text-white text-start">
+                            <h5 class="fw-bold mb-2">Great Service!</h5>
+                            <p class="mb-0" style="max-width:420px;">
+                                "JSK Tech Solutions delivered exactly what we needed. Highly professional and creative team!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots text-center mt-4"></div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+    <!-- How Our Content Writing Company Gets the Job Done Section -->
+    <section class="content-process-section py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-2" style="font-size:2rem;">
+                How Our <span class="text-warning">Content <span class="text-danger">Writing Company</span></span><br>
+                Gets the Job Done
+            </h2>
+            <p class="text-center mb-4" style="max-width:700px;margin:auto;">
+                At Content Witty, we take pride in being a leading content writing company in India. We offer a comprehensive range of content writing services to help you establish a strong foothold in India and stand out in your industry.
+            </p>
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="process-card p-4 h-100 text-center border rounded-3 shadow-sm">
+                        <div class="process-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="Consultation" style="width:36px;">
+                        </div>
+                        <h5 class="fw-bold mb-2">Tailored Consultation</h5>
+                        <p class="mb-0">We deeply understand your brand's needs and goals, and create custom strategies through direct consultation, market insights, and competitor research. This process makes your content unique, fits well in your target market, and delivers better results than generic solutions.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="process-card p-4 h-100 text-center border rounded-3 shadow-sm">
+                        <div class="process-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="Strategy" style="width:36px;">
+                        </div>
+                        <h5 class="fw-bold mb-2">Strategic Content Creation</h5>
+                        <p class="mb-0">Our content team specializes in both short and long-form content, aligned with your specific needs, industry, and target audience. We plan, research, and write content that is engaging, relevant, and tailored to your goals, ensuring your brand's message is powerful and consistent across channels.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="process-card p-4 h-100 text-center border rounded-3 shadow-sm">
+                        <div class="process-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="SEO" style="width:36px;">
+                        </div>
+                        <h5 class="fw-bold mb-2">SEO Optimized Content</h5>
+                        <p class="mb-0">We go beyond basic content creation. SEO principles are at our core, so every blog, article, or website copy is optimized for search engines. By analyzing keywords, competitors, and trends, we ensure your content is discoverable and attracts the right audience, improving conversion and organic traffic.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="process-card p-4 h-100 text-center border rounded-3 shadow-sm">
+                        <div class="process-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="Delivery" style="width:36px;">
+                        </div>
+                        <h5 class="fw-bold mb-2">Iterative Delivery</h5>
+                        <p class="mb-0">Once approved by our Content Head, we deliver content in phases, so you can review, provide feedback, and request changes if needed. This ensures complete satisfaction and the final content perfectly aligns with your goals, every time.</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="process-card p-4 h-100 text-center border rounded-3 shadow-sm">
+                        <div class="process-icon mb-3">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="Quality" style="width:36px;">
+                        </div>
+                        <h5 class="fw-bold mb-2">Error-Free Quality</h5>
+                        <p class="mb-0">At Content Witty, we prioritize error-free, plagiarism-free, and high-quality content. Our editors and proofreaders follow strict guidelines, perform multiple QA checks, and use the latest tools to guarantee your content is always impeccable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How can we help you? Section -->
+    <section class="cta-help-section py-5" style="background: #ffc914;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left: Text & Button -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold display-4 mb-3">How can we help you?</h2>
+                    <p class="lead mb-4" style="font-weight:500;">
+                        Let's talk about your requirements to get unique solutions for your brand.
+                    </p>
+                    <a href="contactus.html" class="btn btn-light fw-bold px-4 py-2 rounded-pill shadow-sm">Talk to Us</a>
+                </div>
+                <!-- Right: Image -->
+                <div class="col-lg-6 text-center">
+                    <img src="https://img.freepik.com/free-photo/african-american-woman-holding-notebook-pen_144627-37948.jpg?w=600" alt="How can we help you" class="cta-help-img img-fluid" style="max-height:340px;object-fit:contain;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Form Section -->
+    <section class="contactus-section py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <h2 class="fw-bold mb-4 text-center">Contact Us</h2>
+            <form>
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="contactName" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactPhone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="contactPhone" placeholder="Your Phone Number" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="contactMessage" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-warning fw-bold">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/+917622020466" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:60px;height:60px;">
+    </a>
+
+    <!-- Footer -->
+    <footer class="main-footer bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Logo & About -->
+                <div class="col-md-3">
+                    <img src="/images/logo.png" alt="JSK-Studio" style="max-width:150px;">
+                    <div class="mt-3">
+                        <img src="/images/contentwitty-logo.png" alt="ContentWitty" style="max-width:120px;">
+                        <div class="small text-white-50">A Subsidiary Company</div>
+                    </div>
+                </div>
+                <!-- Company -->
+                <div class="col-6 col-md-2">
+                    <h6 class="fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#" class="text-white-50">About Us</a></li>
+                        <li><a href="#" class="text-white-50">Career</a></li>
+                        <li><a href="#" class="text-white-50">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-white-50">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white-50">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Services -->
+                <div class="col-6 col-md-2">
+                    <h6 class="fw-bold mb-3">SERVICES</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#" class="text-white-50">Graphic Design</a></li>
+                        <li><a href="#" class="text-white-50">Digital Illustration</a></li>
+                        <li><a href="#" class="text-white-50">Web Development</a></li>
+                        <li><a href="#" class="text-white-50">Explainer Videos</a></li>
+                        <li><a href="#" class="text-white-50">Content Writing</a></li>
+                        <li><a href="#" class="text-white-50">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <!-- Other Links -->
+                <div class="col-12 col-md-5">
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <h6 class="fw-bold mb-3"> </h6>
+                            <ul class="list-unstyled footer-links">
+                                <li><a href="#" class="text-white-50 fw-bold">PRICING</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">DESIGN SAMPLES</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">OUR CREATIVE PROCESS</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">BLOG</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">REQUEST QUOTATION</a></li>
+                                <li><a href="#" class="text-white-50 fw-bold">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <h6 class="fw-bold mb-3">Contact for consultation</h6>
+                            <div class="mb-2 text-white-50">+91 7622020466</div>
+                            <div class="mb-2 text-white-50">jsk.techsolutions1@gmail.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-white-50">
+                <div>©2024 - 2025 JSK Tech Solution. All Rights Reserved</div>
+                <div class="mt-2 mt-md-0">
+                    <!-- Social icons or other info here if needed -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- EmailJS for form submissions -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YOUR_EMAILJS_PUBLIC_KEY"); // Replace with your EmailJS public key
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
